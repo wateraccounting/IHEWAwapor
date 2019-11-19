@@ -4,19 +4,31 @@ IHEWAwapor
 
 This is the documentation of **IHEWAwapor**.
 
-From the root of the project, run::
+.. code-block:: console
+
+    $ git clone https://github.com/wateraccounting/IHEWAwapor.git
+
+From the root of the project
+
+.. code-block:: console
 
     python setup.py --version
 
 Format scripts by PEP8
 
-    autopep8 --in-place --aggressive src/IHEWAwapor/WaporAPI.py
+.. code-block:: console
 
-Unit test, run::
+    autopep8 --in-place --aggressive src/IHEWAwapor/WPdownload/download/WaporAPI.py
+
+Unit test
+
+.. code-block:: console
 
     python setup.py test
 
-Read the Docs, run::
+Read the Docs
+
+.. code-block:: console
 
     python setup.py doctest
 
@@ -27,31 +39,18 @@ PyPI upload, run ``setup.py``::
     1. Commit -> Git - tag - add - v0.0.1 -> ``setup.py`` -> push
     2. Github - Release - new release v0.0.1
 
+.. code-block:: console
+
     python setup.py sdist bdist_wheel
-    twine check dist/*.tar.gz
+
+    twine check dist/*.tar.
+
     twine upload dist/*
 
-.. warning::
+**Examples:**
+::
 
-    Must contain **config.yml** and **accounts.yml-encrypted** file.
-
-.. note::
-
-    This is the main page of your project's `Sphinx`_ documentation.
-    It is formatted in `reStructuredText`_. Add additional pages
-    by creating rst-files in ``docs`` and adding them to the `toctree`_ below.
-    Use then `references`_ in order to link them from this page, e.g.
-    :ref:`authors` and :ref:`changes`.
-
-    It is also possible to refer to the documentation of other Python packages
-    with the `Python domain syntax`_. By default you can reference the
-    documentation of `Sphinx`_, `Python`_, `NumPy`_, `SciPy`_, `matplotlib`_,
-    `Pandas`_, `Scikit-Learn`_. You can add more by extending the
-    ``intersphinx_mapping`` in your Sphinx's ``conf.py``.
-
-    The pretty useful extension `autodoc`_ is activated by default and lets
-    you include documentation from docstrings. Docstrings can be written in
-    `Google style`_ (recommended!), `NumPy style`_ and `classical style`_.
+    from IHEWAwapor import WPdownload as WaPOR
 
 
 Contents
