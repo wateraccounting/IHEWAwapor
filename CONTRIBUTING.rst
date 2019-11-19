@@ -155,7 +155,7 @@ then:
     $ pip install -r requirements-dev.txt
 
 Installing IHEWAwapor
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 Installing IHEWAwapor in editable mode while
 developing is very convenient but only affects the Python files.
@@ -164,8 +164,8 @@ developing is very convenient but only affects the Python files.
 
     $ python setup.py install
 
-Installing IHEWAwapor
-^^^^^^^^^^^^^^^^^^^
+Uninstalling IHEWAwapor
+^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: console
 
