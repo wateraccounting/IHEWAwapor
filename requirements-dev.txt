@@ -7,4 +7,4 @@ pyscaffoldext-markdown==0.3.1
 pyscaffoldext-pyproject==0.2.1
 pytest>=5
 sphinx>=2.2
-twine>=2.0
+twine>=1.15
