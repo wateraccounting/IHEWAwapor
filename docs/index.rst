@@ -12,27 +12,27 @@ From the root of the project
 
 .. code-block:: console
 
-    python setup.py --version
+    $ python setup.py --version
 
 Format scripts by PEP8
 
 .. code-block:: console
 
-    autopep8 --in-place --aggressive src/IHEWAwapor/WPdownload/download/WaporAPI.py
+    $ autopep8 --in-place --aggressive src/IHEWAwapor/WPdownload/download/WaporAPI.py
 
 Unit test
 
 .. code-block:: console
 
-    python setup.py test
+    $ python setup.py test
 
 Read the Docs
 
 .. code-block:: console
 
-    python setup.py doctest
+    $ python setup.py doctest
 
-    python setup.py docs
+    $ python setup.py docs
 
 PyPI upload, run ``setup.py``::
 
@@ -41,11 +41,11 @@ PyPI upload, run ``setup.py``::
 
 .. code-block:: console
 
-    python setup.py sdist bdist_wheel
+    $ python setup.py sdist bdist_wheel
 
-    twine check dist/*.tar.
+    $ twine check dist/*.tar.
 
-    twine upload dist/*
+    $ twine upload dist/*
 
 **Examples:**
 ::
