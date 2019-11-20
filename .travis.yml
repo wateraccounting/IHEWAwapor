@@ -176,6 +176,9 @@ after_success:
 after_script:
   - travis-cleanup
 
+notifications:
+  slack: wapor:QAz03ilprx2XbALTANHEii0j
+
 cache: false
 #cache:
 #  directories:
