@@ -4,6 +4,55 @@ IHEWAwapor
 
 This is the documentation of **IHEWAwapor**.
 
+**Howto use**
+::
+
+    from IHEWAwapor import WPdownload as WaPOR
+
+    APIToken    = 'Your WaPOR API token'
+    latlim      = [7.89, 12.4]
+    lonlim      = [37.95, 43.35]
+    Startdate   = '2009-01-01'
+    Enddate     = '2009-02-01'
+
+    arg = {
+        'APIToken': APIToken,
+        'Dir':      dir_path,
+        'Startdate':Startdate,
+        'Enddate':  Enddate,
+        'latlim':   latlim,
+        'lonlim':   lonlim,
+        'version':  2,
+        'level':    1
+    }
+
+    print('\n===== WaPOR.AET =====')
+    WaPOR.AET_dekadal(**arg)
+    WaPOR.AET_monthly(**arg)
+    WaPOR.AET_yearly(**arg)
+
+    print('\n===== WaPOR.I =====')
+    WaPOR.I_yearly(**arg)
+
+    print('\n===== WaPOR.LCC =====')
+    WaPOR.LCC_yearly(**arg)
+
+    print('\n===== WaPOR.NPP =====')
+    WaPOR.NPP_dekadal(**arg)
+
+    print('\n===== WaPOR.PCP =====')
+    WaPOR.PCP_daily(**arg)
+    WaPOR.PCP_monthly(**arg)
+    WaPOR.PCP_yearly(**arg)
+
+    print('\n===== WaPOR.RET =====')
+    WaPOR.RET_monthly(**arg)
+    WaPOR.RET_yearly(**arg)
+
+
+Development
+===========
+
 .. code-block:: console
 
     $ git clone https://github.com/wateraccounting/IHEWAwapor.git
@@ -46,11 +95,6 @@ PyPI upload, run ``setup.py``::
     $ twine check dist/*.tar.
 
     $ twine upload dist/*
-
-**Examples:**
-::
-
-    from IHEWAwapor import WPdownload as WaPOR
 
 
 Contents
