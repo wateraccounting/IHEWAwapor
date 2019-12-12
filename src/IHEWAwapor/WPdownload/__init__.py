@@ -22,6 +22,7 @@ from .AET_monthly import main as AET_monthly
 from .AET_yearly import main as AET_yearly
 
 from .I_yearly import main as I_yearly
+from .I_dekadal import main as I_dekadal
 
 from .LCC_yearly import main as LCC_yearly
 
@@ -37,7 +38,7 @@ from .RET_yearly import main as RET_yearly
 __all__ = [
     'API',
     'AET_dekadal', 'AET_monthly', 'AET_yearly',
-    'I_yearly',
+    'I_yearly','I_dekadal',
     'LCC_yearly',
     'NPP_dekadal',
     'PCP_daily', 'PCP_monthly', 'PCP_yearly',
