@@ -4,10 +4,7 @@ IHEWAwapor
 
 This is the documentation of **IHEWAwapor**.
 
-Howto use
-=========
-
-**Examples**
+**Howto use**
 ::
 
     from IHEWAwapor import WPdownload as WaPOR
