@@ -11,8 +11,8 @@
 .. |ReadTheDocs| image:: https://readthedocs.org/projects/ihewawapor/badge/?version=latest
 .. _ReadTheDocs: https://ihewawapor.readthedocs.io/en/latest/
 
-.. |DockerHub| image:: https://img.shields.io/docker/cloud/build/wateraccounting/ihewawapor
-.. _DockerHub: https://hub.docker.com/r/wateraccounting/ihewawapor
+.. |DockerHub| image:: https://img.shields.io/docker/cloud/build/ihewa/ihewawapor
+.. _DockerHub: https://hub.docker.com/r/ihewa/ihewawapor
 
 .. |PyPI| image:: https://img.shields.io/pypi/v/IHEWAwapor
 .. _PyPI: https://pypi.org/project/ihewawapor/
